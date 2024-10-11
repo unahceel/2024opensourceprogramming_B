@@ -40,3 +40,22 @@ func main() {
 
 }
 
+package main
+
+import (
+	"fmt"
+	"log"
+)
+
+func main() {
+	fmt.Print("이름 입력 : ")
+	r := buflo.NewReader(os.stdin)
+	name, err := in.ReadString('\n')
+
+	if err != nil {
+		log.Fatal(err)
+	} else {
+		fmt.Println(name)
+	}
+
+}
