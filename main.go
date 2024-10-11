@@ -23,3 +23,20 @@ func main() {
 	fmt.println(armyFixed.Peplace(army))
 
 }
+
+package main
+
+import (
+	"fmt"
+	"strings"
+)
+
+func main() {
+	fmt.Print("이름 입력 : ")
+	r := buflo.NewReader(os.stdin)
+	name, err := in.ReadString('\n')
+	fmt.Println(name)
+	fmt.prinln(err)
+
+}
+
